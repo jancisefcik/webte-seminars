@@ -3,3 +3,5 @@ Repozitár slúži ako centrálne miesto pre materiály, príklady alebo návody
 
 ## Obsah
 - [CV0 Inštalácia serveru](cv0/server_install.md)
+- [CV1 Návrh DB a spracovanie CSV](cv1/seminar-1.md)
+
