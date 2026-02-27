@@ -108,5 +108,12 @@ volumes:
 
 Súbor `src/index.php` - váš PHP skript.
 
-Príkaz spustenia kontajnerov `docker compose up -d`
+## Použitie
+Príkaz pre spustenie kontajnerov `docker compose up -d` - pri prvom spustení sa musia stiahnuť image a kontajnery sa nainštalujú.
+
 Príkaz zastavenia kontajnerov `docker compose down`
+
+Následne budete mať k dispozícii dve adresy: 
+- `http://localhost:8080` - tu beží Nginx server a hostuje adresáre a súbory zo `src`.
+- `http://localhost:8081` - tu beží PhpMyAdmin rozhranie s automaticky prihláseným používateľom `app_user` a vytvorí databázu `app_db`.
+
