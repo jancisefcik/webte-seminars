@@ -150,7 +150,7 @@ Ak bol skript zavolaný metódou `POST` spustí sa validácia - tentokrát back-
 
 **Pozor! Heslo sa do databázy ukladá vždy hashované, nikdy nie v *plain-text* podobe!** Používame na to funkciu `password_hash()`, ktorej prvým argumentom je text/heslo, ktoré má byť hashované a druhý argument je algoritmus, ktorý sa použije. V našom prípade sme špecifikovali, že heslo sa má hashovať algoritmom *Argon2ID*. Ak by sme nezadali nič, použije sa *BCrypt*. Ich popis a rozdiely sú definované v [PHP dokumentácii](https://www.php.net/manual/en/function.password-hash.php).
 
-## Prihlasovanie
+## Prihlasovanie
 
 Máme spôsob vytvorenia používateľa, ale čo s tým? Potrebujeme sa teraz vedieť prihlásiť a dať aplikácii vedieť, že sme to my. Hlavným nástrojom v logike prihlasovania používateľov je *session* - relácia. V zjednodušenej podobe vieme povedať: 
 
@@ -360,7 +360,7 @@ Pre implementáciu dvojfaktorového overenia a prihlasovania prostredníctvom OA
 
 V prostredí jazyka PHP existujú rozličné knižnice a je možné ich používať tak, že si ich zdrojový kód stiahneme manuálne z repozitáru vývojára konkrétnej knižnice, alebo si ich nainštalujeme prostredníctvom správcu balíkov. Podobne, ako NodeJS má `npm` pre správu a inštaláciu balíkov, pre PHP knižnice existuje správca balíkov `composer`. Je to jednoduchý skript, ktorý využíva verejný register balíkov, a takmer všetky PHP balíky je možné nainštalovať pomocou tohoto manažéra.
 
-`composer` je potrebné pred použitím najprv stiahnuť [z oficiálnej stránky](https://getcomposer.org/download/) a nainštalovať. Na stránke sa nachádzajú príkazy pre prostredie, v ktorom je nainštalovaný PHP interpreter (napr. váš školský server, prípadne ho viete nainštalovať aj do Docker stacku - pozri doplnený [setup lokálneho Docker prostredia](cv1/setup-docker.md))
+`composer` je potrebné pred použitím najprv stiahnuť [z oficiálnej stránky](https://getcomposer.org/download/) a nainštalovať. Na stránke sa nachádzajú príkazy pre prostredie, v ktorom je nainštalovaný PHP interpreter (napr. váš školský server, prípadne ho viete nainštalovať aj do Docker stacku - pozri doplnený [setup lokálneho Docker prostredia](../cv1/setup-docker.md))
 
 ![composer-webpage](img/composer-webpage.png)
 
