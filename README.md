@@ -5,6 +5,8 @@ Repozitár slúži ako centrálne miesto pre materiály, príklady alebo návody
 - [CV0 Inštalácia serveru](cv0/server_install.md)
 - [CV1 Návrh DB a spracovanie CSV](cv1/seminar-1.md)
 - [CV2 Autentifikácia - 2FA - OAuth](cv2/seminar-2.md)
+- [CV3 Jednoduché API](cv3/seminar-3.md)
+- [CV4 WebSocket server](cv4/seminar-4.md)
 
 **Iné**
 - [Setup lokálneho prostredia pomocou Docker](cv1/setup-docker.md)
